@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment / secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data (CADICA frames, videos, annotations, etc.)
+data/*
+!data/**/.gitkeep
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+*.jpeg
+!docs/**/*.png
+
+# Model weights
+*.pt
+*.onnx
+*.engine
+weights/
+
+# Generated reports / outputs
+outputs/
+reports/*.pdf
+
+# Logs
+*.log
