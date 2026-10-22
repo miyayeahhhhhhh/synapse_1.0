@@ -54,7 +54,7 @@ Streamlit live view ──► PDF report
 7. **PDF report** — summarizes a completed run (tracks, confidence
    curves, representative frames) into a shareable report via `fpdf2`.
 
-## Dataset
+## Dataset.
 
 [CADICA](https://data.mendeley.com/datasets/p9bpx9ctcv/1) — sequential
 PNG angiography frames with per-frame bounding boxes and severity labels.
